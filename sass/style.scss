@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: #0066CC;
+    position: relative;
+    .slider{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        transition: all .5s;
+        overflow: hidden;
+        .slide{
+            width: 20%;
+            height: 100%;
+            position: relative;
+            transition: .5s;
+        }
+        .s1{
+            background: url("https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/58489.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+        .s2{
+            background: url("https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/58488.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+        .s3{
+            background: url("https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/58487.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+        .s4{
+            background: url("https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/58486.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+        .s5{
+            background: url("https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/58485.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+    }
+    .slide:hover{
+        width: 60%;
+        cursor: pointer;
+    }
+}
+
